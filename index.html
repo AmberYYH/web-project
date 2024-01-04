@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+
+  
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- Click the map -->
+    <div class="taiwan-map">
+      <img src="taiwan_map.svg" usemap="#taiwan-places" />
+    <map name="taiwan-places">
+
+        <area target="_parent"  alt="Queens Head" title="Queens Head" href="javascript: selectElement('queens-head-modal')" coords="506,168,550,245" shape="rect">
+        <area target="_parent"  alt="Taipei 101" title="Taipei 101" href="javascript: selectElement('taipei-101-modal')" coords="456,117,503,348" shape="rect">
+        <area target="_parent"  alt="Liberty Square Arch" title="Liberty Square Arch" href="javascript: selectElement('Liberty-Square-Arch-modal')" coords="358,240,433,315" shape="rect">
+        <area target="_parent"  alt="Taroko National Park" title="Taroko National Park" href="javascript: selectElement('Taroko-National-Park-modal')" coords="304,373,442,462" shape="rect">
+        <area target="_parent"  alt="Dragon and Tiger Pagodas" title="Dragon and Tiger Pagodas" href="javascript: selectElement('Dragon-and-Tiger-Pagodas-modal')" coords="102,393,205,583" shape="rect">
+        <area target="_parent"  alt="Eluanbi Lighthouse" title="Eluanbi Lighthouse" href="javascript: selectElement('Eluanbi-Lighthouse-modal')" coords="200,703,259,848" shape="rect">
+
+    </map>
+    </div>
+
+    <div class="modal" id="queens-head-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Queens Head</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="JPG/queens_head.JPG" width="100%">
+                      </div>
+                      <div class="col">
+                        Queens Head Rock is a natural formation in Yehliu, Taiwan. Named after its resemblance to a woman's head, it took over 4,000 years to form. 
+                        The length of its neck is 125 centimetres (49 in) and has been weathered at a rate of 0.2 to 0.5 centimetres (0.079 to 0.197 in) per year. 
+                        The popularity of the site draws increasing numbers of international tourists.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="taipei-101-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Taipei 101</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="JPG/taipei_101.jpg" alt="taipei_101" width="100%">
+                      </div>
+                      <div class="col">
+                        Taipei 101 (Chinese: 台北101; pinyin: Táiběi 101; stylized in all caps), is a skyscraper in Taipei, Taiwan. 
+                        The building was officially classified as the world's tallest from its opening on 31 December 2004 
+                        (in time to celebrate New Year's Eve). However, the Burj Khalifa surpassed Taipei 101 in 2009. Upon completion, it became the world's first skyscraper 
+                        to exceed a height of half a kilometer (about 0.3 miles). As of 2023, Taipei 101 is the tallest building in Taiwan and the eleventh tallest building in the world.
+                        The elevators of Taipei 101 that transport passengers from the 5th to the 89th floor in 37 seconds (attaining 60.6 km/h (37.7 mph)) set speed records. In 2011, 
+                        Taipei 101 was awarded a Platinum certificate rating under the LEED certification system for energy efficiency and environmental design, becoming the tallest and 
+                        largest green building in the world. The structure regularly appears as an icon of Taipei in international media, and the Taipei 101 fireworks displays are a 
+                        regular feature of New Year's Eve broadcasts and celebrations.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="Liberty-Square-Arch-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Liberty Square Arch</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="JPG/Liberty Square Arch (自由廣場牌樓).jpeg" alt="taipei_101" width="100%">
+                      </div>
+                      <div class="col">
+                        Liberty Square (also Freedom Square) is a public plaza covering over 240,000 square meters in the Zhongzheng District of Taipei, Taiwan. It has served as the city's public gathering place 
+                        of choice since its completion in the late 1970s. The name of the square recalls the important historical role it played in Taiwan's transition from one-party rule to modern democracy in the 1990s.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="Taroko-National-Park-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Taroko National Park</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="JPG/Taroko National Park.jpeg" alt="taipei_101" width="100%">
+                      </div>
+                      <div class="col">
+                        Taroko National Park (Chinese: 太魯閣國家公園; pinyin: Tàilǔgé Gúojiā Gōngyuán; Pe̍h-ōe-jī: Thài-ló͘-koh Kok-ka Kong-hn̂g) is one of the nine national parks in Taiwan and 
+                        was named after the Taroko Gorge, the landmark gorge of the park carved by the Liwu River. The park spans Taichung Municipality, Nantou County, and Hualien County 
+                        and is located in Xiulin Township, Hualien County, Taiwan.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="Dragon-and-Tiger-Pagodas-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Dragon and Tiger Pagodas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="JPG/Dragon and Tiger Pagodas.jpeg" alt="taipei_101" width="100%">
+                      </div>
+                      <div class="col">
+                        The Dragon and Tiger Pagodas (Chinese: 龍虎塔; pinyin: Lónghǔ Tǎ) is a temple located at Lotus Lake in Zuoying District, Kaohsiung, Taiwan. The temple was built in 1976. 
+                        One of the towers is the Tiger Tower, the other one being the Dragon Tower. Both towers are seven storeys tall and have yellow walls, red pillars and orange tiles. 
+                        A zigzag bridge connects the towers to the shore. There are paintings inside the temple depicting Ksitigarbha. In the Tiger Tower, there are paintings of twelve Magi 
+                        and the Jade Emperor's thirty palaces as well as paintings of Confucius. The towers have a double spiral staircase, one each for ascending and descending visitors.
+                        Overlooking the towers are the Small Tortoise mountains, Spring and Autumn Pavilions, 5-mile Pavilion and Pei Chi Pavilion, as well as a surrounding lake.
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="Eluanbi-Lighthouse-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Eluanbi Lighthouse</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="JPG/Eluanbi Lighthouse.jpeg" alt="taipei_101" width="100%">
+                      </div>
+                      <div class="col">
+                        Eluanbi Lighthouse is a lighthouse located on Cape Eluanbi, the southernmost point of the main island of Taiwan, which separates Taiwan's South Bay from Banana Bay and 
+                        the Taiwan Strait and the South China Sea from the Philippine Sea. It is near Eluan Village in the township of Hengchun in Pingtung County, Taiwan. 
+                        The lighthouse is open to the public all year around. Eluanbi Lighthouse is also known as "The Light of East Asia" because its light is the most intense of those on Taiwan.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf-8">
+        function selectElement(el) {
+            const myModal = new bootstrap.Modal(`#${el}`);
+            myModal.show();
+        }
+    </script>
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>

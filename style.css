@@ -1,0 +1,64 @@
+.modal-title{
+font-weight: 700; 
+color: #11A29F;
+padding-left: 15px;
+}
+
+.nav-link.active{
+font-weight: 700;
+}
+
+.nav-link{
+    color: rgb(71, 69, 69);
+}
+
+.navbar.bg-body-tertiary{
+    background-color: #9ad7f3 !important;
+}
+
+.navbar{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-item img{
+    height: 680px;
+    object-fit: cover;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* .carousel-item{
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+.about-taiwan-titile{
+    text-align: center;
+    font-weight: 700;
+    font-size: 68px;
+    padding: 40px;
+}
+
+.about-taiwan-paragraph{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    line-height: 180%;
+    font-size: 20px;
+}
+
+.taiwan-map{
+    background-color: #7CE0DE;
+    display: flex;
+    margin: 0 20px;
+}
+
+.taiwan-map img{
+    margin: 0 auto;
+}
+
+.btn btn-primary{
+    color: black;
+}
