@@ -22,6 +22,11 @@ font-weight: 700;
     margin-right: 20px;
 }
 
+.nav-item{
+    padding-inline-start: 60px;
+}
+    
+
 .carousel-item img{
     height: 680px;
     object-fit: cover;
